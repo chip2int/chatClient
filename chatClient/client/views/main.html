@@ -1,0 +1,22 @@
+<div class="main" id="mainContainer">
+    <div class="title"> Chat Client</div>
+    <br>
+	<div scroll-bottom class="chat-messages">
+		<div ng-repeat = "chatMessage in messages">
+			{{chatMessage.user}} : {{chatMessage.message}}
+		</div>
+	</div>
+	<br>
+
+	<div class="user-logged">
+	<br>
+	<form ng-submit=addChatMessage()>
+	<label> Enter Message </label>
+		<input type="text" size="80"class="chat-input" ng-model="chatMessage">
+	</form>
+	<br>
+	<div>Logged in as: <strong> {{chatUserName}} </strong>
+	<span class=btn-span> <button type="button" ng-click=logout()> Logout</button></span>
+	</div>
+	</div>
+</div>

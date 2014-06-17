@@ -1,0 +1,23 @@
+{
+  "name": "chatClient",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chip2int/chatClient",
+  "authors": [
+    "Joseph Toney <jdtoney@gmail.com>"
+  ],
+  "description": "Simple user interface for a chat client",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.18",
+    "angular-route": "~1.2.18",
+    "grunt": "~0.4.5"
+  }
+}

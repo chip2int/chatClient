@@ -1,0 +1,38 @@
+.login, .main{
+	margin: 0 auto;
+	width: 60%;
+	margin-top:10%;
+	padding-top: 5px;
+	background-color: #E0F0FF
+
+}
+.title {
+	border-style:solid;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.chat-messages {
+	border-style:solid;
+	border-width: 2px;
+	overflow: scroll;
+	min-height: 100px;
+	max-height: 100px;
+}
+
+.user-logged, .chatuser-input {
+	padding-top: 5px;
+	padding-bottom:5px;
+	border-style:solid;
+	border-width: 2px;
+}
+
+.btn-span{
+	float:right;
+}
+
+.chat-input {
+	width:60%;
+}
